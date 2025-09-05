@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/aipracticalist-logo.png";
 
 const Header = () => {
   return (
@@ -7,11 +6,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img 
-              src={logo} 
-              alt="AIPracticalist Logo" 
-              className="w-10 h-10"
-            />
+            <div className="w-10 h-10 bg-gradient-to-br from-primary-orange to-maroon-core rounded-lg flex items-center justify-center">
+              <span className="text-white font-serif font-bold text-lg">AI</span>
+            </div>
             <div>
               <h1 className="font-serif font-bold text-xl text-gradient-primary">
                 AIPracticalist
